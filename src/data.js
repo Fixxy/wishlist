@@ -8,7 +8,7 @@ export let items = [
 	}, {
 		'img': 'https://static-eu.insales.ru/images/products/1/1787/230344443/large_logo_new2019.jpg',
 		'name': 'Подарочный сертификат в Zero Waste Shop',
-		'price': 'от 500 ₽',
+		'price': 'от 100 ₽',
 		'url': 'https://zws.moscow/collection/podarochnye-sertifikaty',
 		'description': 'тест-тест-тест222'
 	}
