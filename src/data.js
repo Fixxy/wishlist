@@ -1,13 +1,15 @@
 export let items = [
 	{
-		"name": "Квест пандемия",
-		"url": "www.test.ru",
-		"img": "",
-		"description": "тест-тест-тест"
+		'img': '''https://cdn1.ozone.ru/s3/multimedia-v/c1200/6006568483.jpg',
+		'name': 'Игра Клаустрафобия "Пробуждение"',
+		'price': '2349 ₽',
+		'url': 'https://www.ozon.ru/context/detail/id/163141508/',
+		'description': 'Игра квест-головоломка, в которой вам предстоит пройти захватывающую дух историю.'
 	}, {
-		"name": "Сертификат",
-		"url": "zws.ru",
-		"img": "https://mdbootstrap.com/wp-content/uploads/2017/11/brandflow-tutorial-fb.jpg",
-		"description": "тест-тест-тест222"
+		'img': 'https://static-eu.insales.ru/images/products/1/1787/230344443/large_logo_new2019.jpg',
+		'name': 'Подарочный сертификат в Zero Waste Shop',
+		'price': 'от 500 ₽',
+		'url': 'https://zws.moscow/collection/podarochnye-sertifikaty',
+		'description': 'тест-тест-тест222'
 	},
 ]
