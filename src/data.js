@@ -7,7 +7,7 @@ export let items = [
 	}, {
 		"name": "Сертификат",
 		"url": "zws.ru",
-		"img": "",
+		"img": "https://mdbootstrap.com/wp-content/uploads/2017/11/brandflow-tutorial-fb.jpg",
 		"description": "тест-тест-тест222"
 	},
 ]
