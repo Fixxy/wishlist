@@ -9,6 +9,6 @@ items.forEach(function(el){
 	let wishlist = document.getElementById('wishlist_block');
 	let wish = document.createElement('div');
 		wish.setAttribute('class', 'wish_el');
-		wish.innerHTML(`${el.name} ; ${el.url} ; ${el.img} ; ${el.description}`);
+		wish.innerHTML = `${el.name} ; ${el.url} ; ${el.img} ; ${el.description}`;
 	wishlist.appendChild(wish);  
 });
