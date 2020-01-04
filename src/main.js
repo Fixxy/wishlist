@@ -6,7 +6,7 @@ let test = items;
 
 items.forEach(function(el){
 	console.log(el);
-	let wishlist = document.getElementById('wishlist_block');
+	let wishlist = document.getElementById('wish_block');
 	let wish = document.createElement('div');
 		wish.setAttribute('class', 'wish_el')
 		wish.innerHTML = return_fancy_html(el);
