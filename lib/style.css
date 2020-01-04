@@ -9,7 +9,7 @@ html * {
     padding: 1em;
 }
 
-#wish_el {
+.wish_el {
 	border: 1px dotted grey;
     margin: 1em 0;
     border-radius: 10px;
