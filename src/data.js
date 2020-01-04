@@ -1,6 +1,6 @@
 export let items = [
 	{
-		'img': '''https://cdn1.ozone.ru/s3/multimedia-v/c1200/6006568483.jpg',
+		'img': 'https://cdn1.ozone.ru/s3/multimedia-v/c1200/6006568483.jpg',
 		'name': 'Игра Клаустрафобия "Пробуждение"',
 		'price': '2349 ₽',
 		'url': 'https://www.ozon.ru/context/detail/id/163141508/',
@@ -11,5 +11,5 @@ export let items = [
 		'price': 'от 500 ₽',
 		'url': 'https://zws.moscow/collection/podarochnye-sertifikaty',
 		'description': 'тест-тест-тест222'
-	},
+	}
 ]
