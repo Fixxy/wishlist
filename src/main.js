@@ -9,12 +9,13 @@ items.forEach(function(el){
 });
 
 function return_fancy_html(element) {
-
-	console.log(typeof(element.price));
-
 	let p = element.price;
-	console.log(typeof(p));
-	// if (typeof(p) === '') {_className = 'high_price'}
+	let _className = 'low_price';
+	if (typeof(p) === 'number') {
+		if (p >= 1000 || p < 3000) {_className = 'medium_price';}
+		else if (p >= 3000) {_className = 'high_price';}
+	}
+	console.log(_className);
 
 	let html = `<a href="${element.url}" target="blank">
 					<div class="wish_el_photo" style="background-image: url(${element.img})"></div>
