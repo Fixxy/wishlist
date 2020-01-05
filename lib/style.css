@@ -62,7 +62,11 @@
 
 
 .wish_el_name {
+	position: relative;
 	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
 }
 .wish_el_price {
 	
