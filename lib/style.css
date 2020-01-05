@@ -51,8 +51,8 @@
 	bottom: 0;
 	position: absolute;
 	font-size: 1.2em;
+	font-weight: 600;
 	color: white;
-	text-align: center;
 	background: rgba(0, 0, 0, 0.2) !important;
 	background: -webkit-linear-gradient(to left, #0000001f, #0000008f) !important;
 	background: linear-gradient(to left, #0000001f, #0000008f) !important;
@@ -63,13 +63,11 @@
 
 .wish_el_name {
 	position: relative;
-	top: 50%;
-	left: 50%;
-	text-align: center;
-	transform: translate(-50%, -50%);
+	/* transform: translate(0, 100%); */
 }
 .wish_el_price {
-	
+	color: #ad3;
+    font-size: 1.2em;
 }
 
     

@@ -13,7 +13,8 @@ function return_fancy_html(element) {
 					<div class="wish_el_photo" style="background-image: url(${element.img})"></div>
 					<div class="wish_el_text">
 						<div class="wish_el_name">
-							${element.name}<br>
+							<span>${element.name}}</span>
+							<br>
 							<span class="wish_el_price">${element.price}</span>
 						</div>
 					</div>
