@@ -22,7 +22,7 @@ function return_fancy_html(element) {
 						<div class="wish_el_name">
 							<span>${element.name}</span>
 							<br>
-							<span class="wish_el_price ${_className}">${element.price}</span>
+							<span class="wish_el_price ${_className}">${element.price} ₽</span>
 						</div>
 					</div>
 				</a>`;
