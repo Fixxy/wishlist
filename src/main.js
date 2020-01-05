@@ -13,6 +13,7 @@ function return_fancy_html(element) {
 	console.log(typeof(element.price));
 
 	let p = element.price;
+	console.log(typeof(p));
 	// if (typeof(p) === '') {_className = 'high_price'}
 
 	let html = `<a href="${element.url}" target="blank">
