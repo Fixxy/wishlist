@@ -39,18 +39,6 @@
 	transform: scale(1.2);
 }
 
-.wish_el_name {
-	width: 100%;
-	bottom: 0;
-	position: absolute;
-	min-height: 3.6em;
-	font-size: .9em;
-	background: rgba(0, 0, 0, 0.2) !important;
-	background: -webkit-linear-gradient(to left, #ffffff00, #00000066) !important;
-	background: linear-gradient(to left, #ffffff00, #00000066) !important;
-	height: 100%;
-	padding: 1em !important;
-}
 .wish_el_photo {
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -58,6 +46,30 @@
 	height: 100%;
 	transition: all .5s;
 }
+.wish_el_text {
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.2) !important;
+	background: -webkit-linear-gradient(to left, #0000001f, #0000008f) !important;
+	background: linear-gradient(to left, #0000001f, #0000008f) !important;
+	height: 100%;
+	padding: 1em !important;
+}
+
+
+.wish_el_name {
+	top: 50%;
+}
+.wish_el_price {
+	
+}
+
+    
+
 
 
 /* responsive layout */
