@@ -12,8 +12,10 @@ function return_fancy_html(element) {
 	let html = `<a href="${element.url}" target="blank">
 					<div class="wish_el_photo" style="background-image: url(${element.img})"></div>
 					<div class="wish_el_text">
-						<div class="wish_el_name">${element.name}</div>
-						<div class="wish_el_price">${element.price}</div>
+						<div class="wish_el_name">
+							${element.name}<br>
+							<span class="wish_el_price">${element.price}</span>
+						</div>
 					</div>
 				</a>`;
 	return html;
