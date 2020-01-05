@@ -15,7 +15,6 @@ function return_fancy_html(element) {
 		if (p >= 1000 || p < 3000) {_className = 'medium_price';}
 		else if (p >= 3000) {_className = 'high_price';}
 	}
-	console.log(_className);
 
 	let html = `<a href="${element.url}" target="blank">
 					<div class="wish_el_photo" style="background-image: url(${element.img})"></div>
@@ -23,7 +22,7 @@ function return_fancy_html(element) {
 						<div class="wish_el_name">
 							<span>${element.name}</span>
 							<br>
-							<span class="wish_el_price">${element.price}</span>
+							<span class="wish_el_price ${_className}">${element.price}</span>
 						</div>
 					</div>
 				</a>`;
