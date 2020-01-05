@@ -12,8 +12,8 @@ function return_fancy_html(element) {
 	let p = element.price;
 	let _className = 'low_price';
 	if (typeof(p) === 'number') {
-		if (p >= 1000 || p < 3000) {_className = 'medium_price';}
-		else if (p >= 3000) {_className = 'high_price';}
+		if (p >= 1000) {_className = 'medium_price';}
+		if (p >= 3000) {_className = 'high_price';}
 	}
 
 	let html = `<a href="${element.url}" target="blank">
