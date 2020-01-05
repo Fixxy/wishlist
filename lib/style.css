@@ -66,9 +66,11 @@
 	/* transform: translate(0, 100%); */
 }
 .wish_el_price {
-	color: #ad3;
     font-size: 1.2em;
 }
+.low_price { color: #ad3; }
+.medium_prices { color: #ffc107; }
+.high_price { color: #ff5722; }
 
     
 

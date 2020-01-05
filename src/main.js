@@ -9,11 +9,17 @@ items.forEach(function(el){
 });
 
 function return_fancy_html(element) {
+
+	console.log(typeof(element.price));
+
+	let p = element.price;
+	// if (typeof(p) === '') {_className = 'high_price'}
+
 	let html = `<a href="${element.url}" target="blank">
 					<div class="wish_el_photo" style="background-image: url(${element.img})"></div>
 					<div class="wish_el_text">
 						<div class="wish_el_name">
-							<span>${element.name}}</span>
+							<span>${element.name}</span>
 							<br>
 							<span class="wish_el_price">${element.price}</span>
 						</div>
