@@ -2,8 +2,8 @@ export let items = [
 	{
 		"img": "https://cdn1.ozone.ru/s3/multimedia-v/c1200/6006568483.jpg",
 		"name": 'Игра Клаустрафобия "Пробуждение"',
-		"price": 2500,
-		"url": "https://www.ozon.ru/context/detail/id/163141508/"
+		"price": 2000,
+		"url": "https://www.mosigra.ru/Face/Show/klaustrofobia_probuzhdenie/"
 	}, {
 		"img": "https://static-eu.insales.ru/images/products/1/1787/230344443/large_logo_new2019.jpg",
 		"name": 'Подарочный сертификат в Zero Waste Shop',
@@ -29,5 +29,10 @@ export let items = [
 		"name": 'Тайский массаж',
 		"price": "от 500",
 		"url": "https://tairai.ru/certificates/"
+	}, {
+		"img": "https://images-na.ssl-images-amazon.com/images/I/A15Yos88KUL._SX679_.jpg",
+		"name": 'Escape Room The Game',
+		"price": 2500,
+		"url": "https://www.amazon.com/Spin-Master-Games-Escape-Room/dp/B01EARLQKQ/"
 	}
 ]
