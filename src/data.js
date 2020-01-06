@@ -24,5 +24,10 @@ export let items = [
 		"name": 'Настольная игра Агентство Время Береговое братство',
 		"price": 2500,
 		"url": "https://www.crowdgames.ru/collection/bb"
+	}, {
+		"img": "https://tairai.ru/upload/resize_cache/uf/d58/335_240_1/d581a12ec4173989fbeb45a8234fc0a9.jpg",
+		"name": 'Тайский массаж',
+		"price": "от 500",
+		"url": "https://tairai.ru/certificates/"
 	}
 ]
