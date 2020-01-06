@@ -3,19 +3,19 @@
 	top: 0;
 	right: 0;
 	bottom: 0;
-    position: fixed;
-    color: white;
-    overflow: auto;
-    background-color: white;
-    width: 100%;
-    z-index: 1080;
+	position: fixed;
+	color: white;
+	overflow: auto;
+	background-color: white;
+	width: 100%;
+	z-index: 1080;
 }
 #wish_block {
 	margin: 0;
-    padding: 0;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
+	padding: 0;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
 }
 .wish_el {
 	flex: 33.3%;
@@ -66,7 +66,7 @@
 	/* transform: translate(0, 100%); */
 }
 .wish_el_price {
-    font-size: 1.2em;
+	font-size: 1.2em;
 }
 .low_price { color: #ad3; }
 .medium_price { color: #ffc107; }
