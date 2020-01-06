@@ -14,5 +14,15 @@ export let items = [
 		"name": 'Настольная игра "Остров Духов"',
 		"price": 4500,
 		"url": "https://hobbygames.ru/ostrov-duhov?gclid=Cj0KCQiAr8bwBRD4ARIsAHa4YyIxec6KNV3-ON3TWU7Ioxj0ZEyAlqgTn1Cxkj34tcSbPXNIjlhK-2kaAn2bEALw_wcB"
+	}, {
+		"img": "https://www.4glaza.ru/images/products/large/0/bresser-binoculars-topas-10x25-yellow-07.jpg",
+		"name": 'Бинокль для путешествий',
+		"price": 2500,
+		"url": "https://www.4glaza.ru/products/bresser-binoculars-topas-10x25-yellow/"
+	}, {
+		"img": "https://static-eu.insales.ru/files/1/324/9077060/original/%D0%B2%D1%801.jpg",
+		"name": 'Настольная игра Агентство Время Береговое братство',
+		"price": 2500,
+		"url": "https://www.crowdgames.ru/collection/bb"
 	}
 ]
