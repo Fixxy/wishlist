@@ -34,5 +34,10 @@ export let items = [
 		"name": 'Escape Room The Game',
 		"price": 2500,
 		"url": "https://www.amazon.com/Spin-Master-Games-Escape-Room/dp/B01EARLQKQ/"
+	}, {
+		"img": "https://www.ikea.com/ru/ru/images/products/fascinera-chopping-board__0896581_PE657551_S5.JPG?f=s",
+		"name": 'Разделочная доска из Ikea',
+		"price": 800,
+		"url": "https://www.ikea.com/ru/ru/p/fasinera-razdelochnaya-doska-mangovoe-derevo-60393491/"
 	}
 ]
