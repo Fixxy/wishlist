@@ -20,10 +20,10 @@ export let items = [
 		"price": 2500,
 		"url": "https://www.4glaza.ru/products/bresser-binoculars-topas-10x25-yellow/"
 	}, {
-		"img": "https://static-eu.insales.ru/files/1/324/9077060/original/%D0%B2%D1%801.jpg",
-		"name": 'Настольная игра Агентство Время Береговое братство',
-		"price": 2500,
-		"url": "https://www.crowdgames.ru/collection/bb"
+		"img": "https://nizagams.ru/wp-content/uploads/2019/12/%D0%90%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%BE-%D0%92%D0%A0%D0%95%D0%9C%D0%AF-%D0%9C%D0%B0%D0%B4%D0%B0%D0%BC.jpg",
+		"name": 'Настольная игра Агентство Время Мадам',
+		"price": 2300,
+		"url": "https://www.crowdgames.ru/collection/time-stories-madame"
 	}, {
 		"img": "https://tairai.ru/upload/resize_cache/uf/d58/335_240_1/d581a12ec4173989fbeb45a8234fc0a9.jpg",
 		"name": 'Тайский массаж',
@@ -39,5 +39,10 @@ export let items = [
 		"name": 'Разделочная доска из Ikea',
 		"price": 800,
 		"url": "https://www.ikea.com/ru/ru/p/fasinera-razdelochnaya-doska-mangovoe-derevo-60393491/"
+	},{
+		"img": "https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/HobbyWorld/LOTR_stranstviya_v_sredizemye/LotR_journey-in-middle-earth-1024x1024-wm.jpg",
+		"name": 'Властелин колец: Странствия в Средиземье',
+		"price": 5500,
+		"url": "https://hobbygames.ru/lord-of-the-rings-journeys-in-middle-earth"
 	}
 ]
