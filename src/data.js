@@ -49,5 +49,10 @@ export const items = [
 		"name": 'Властелин колец: Странствия в Средиземье',
 		"price": 5500,
 		"url": "https://hobbygames.ru/lord-of-the-rings-journeys-in-middle-earth"
+	},{
+		"img": "https://static.eldorado.ru/photos/71/715/255/21/new_71525521_l_1569243738.jpeg",
+		"name": 'Подставка для ноутбука Cooler Master',
+		"price": 1400,
+		"url": "https://www.eldorado.ru/cat/detail/okhlazhdayushchaya-podstavka-dlya-noutbuka-cooler-master-notepal-l2-mnw-swts-14fn-r1/"
 	}
 ]
