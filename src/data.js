@@ -44,15 +44,10 @@ export const items = [
 		"name": 'Разделочная доска из Ikea',
 		"price": 800,
 		"url": "https://www.ikea.com/ru/ru/p/fasinera-razdelochnaya-doska-mangovoe-derevo-60393491/"
-	},{
+	}, {
 		"img": "https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/HobbyWorld/LOTR_stranstviya_v_sredizemye/LotR_journey-in-middle-earth-1024x1024-wm.jpg",
 		"name": 'Властелин колец: Странствия в Средиземье',
 		"price": 5500,
 		"url": "https://hobbygames.ru/lord-of-the-rings-journeys-in-middle-earth"
-	},{
-		"img": "https://static.eldorado.ru/photos/71/715/255/21/new_71525521_l_1569243738.jpeg",
-		"name": 'Подставка для ноутбука Cooler Master',
-		"price": 1400,
-		"url": "https://www.eldorado.ru/cat/detail/okhlazhdayushchaya-podstavka-dlya-noutbuka-cooler-master-notepal-l2-mnw-swts-14fn-r1/"
 	}
 ]
