@@ -19,12 +19,17 @@ const items_old = [
 		"name": 'Тайский массаж',
 		"price": "от 500",
 		"url": "https://tairai.ru/certificates/"
-	},
+	}, {
+		"img": "https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/HobbyWorld/LOTR_stranstviya_v_sredizemye/LotR_journey-in-middle-earth-1024x1024-wm.jpg",
+		"name": 'Властелин колец: Странствия в Средиземье',
+		"price": 5500,
+		"url": "https://hobbygames.ru/lord-of-the-rings-journeys-in-middle-earth"
+	}
 ];
 
 /* */
 export const items = [
-	 {
+	{
 		"img": "https://www.4glaza.ru/images/products/large/0/bresser-binoculars-topas-10x25-yellow-07.jpg",
 		"name": 'Бинокль для путешествий',
 		"price": 2500,
@@ -44,10 +49,5 @@ export const items = [
 		"name": 'Разделочная доска из Ikea',
 		"price": 800,
 		"url": "https://www.ikea.com/ru/ru/p/fasinera-razdelochnaya-doska-mangovoe-derevo-60393491/"
-	}, {
-		"img": "https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/HobbyWorld/LOTR_stranstviya_v_sredizemye/LotR_journey-in-middle-earth-1024x1024-wm.jpg",
-		"name": 'Властелин колец: Странствия в Средиземье',
-		"price": 5500,
-		"url": "https://hobbygames.ru/lord-of-the-rings-journeys-in-middle-earth"
 	}
 ]
