@@ -60,6 +60,29 @@
 	padding: 1em !important;
 }
 
+.wish_el_person {
+	display: flex;
+	background-color: #0000004d;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: .25em .5em;
+}
+.female_ph {
+	background-image: url('./img/female.png');
+	background-size: 20px;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+.male_ph {
+	background-image: url('./img/male.png');
+	background-size: 20px;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
 
 .wish_el_name {
 	position: relative;

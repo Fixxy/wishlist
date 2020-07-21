@@ -1,3 +1,4 @@
+/* what we wanted for whatever reason */
 const items_old = [
 	{
 		"img": "https://static-eu.insales.ru/images/products/1/1787/230344443/large_logo_new2019.jpg",
@@ -27,27 +28,39 @@ const items_old = [
 	}
 ];
 
-/* */
+
+/* what we really want */
+/* 0-female, 1-male */
 export const items = [
 	{
 		"img": "https://www.4glaza.ru/images/products/large/0/bresser-binoculars-topas-10x25-yellow-07.jpg",
 		"name": 'Бинокль для путешествий',
 		"price": 2500,
-		"url": "https://www.4glaza.ru/products/bresser-binoculars-topas-10x25-yellow/"
+		"url": "https://www.4glaza.ru/products/bresser-binoculars-topas-10x25-yellow/",
+		"person": [0,1]
 	}, {
 		"img": "https://nizagams.ru/wp-content/uploads/2019/12/%D0%90%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%BE-%D0%92%D0%A0%D0%95%D0%9C%D0%AF-%D0%9C%D0%B0%D0%B4%D0%B0%D0%BC.jpg",
 		"name": 'Настольная игра Агентство Время Мадам',
 		"price": 2300,
-		"url": "https://www.crowdgames.ru/collection/time-stories-madame"
+		"url": "https://www.crowdgames.ru/collection/time-stories-madame",
+		"person": [0,1]
 	}, {
 		"img": "https://images-na.ssl-images-amazon.com/images/I/A15Yos88KUL._SX679_.jpg",
 		"name": 'Escape Room The Game',
 		"price": 2500,
-		"url": "https://www.amazon.com/Spin-Master-Games-Escape-Room/dp/B01EARLQKQ/"
+		"url": "https://www.amazon.com/Spin-Master-Games-Escape-Room/dp/B01EARLQKQ/",
+		"person": [0,1]
 	}, {
 		"img": "https://www.ikea.com/ru/ru/images/products/fascinera-chopping-board__0896581_PE657551_S5.JPG?f=s",
 		"name": 'Разделочная доска из Ikea',
 		"price": 800,
-		"url": "https://www.ikea.com/ru/ru/p/fasinera-razdelochnaya-doska-mangovoe-derevo-60393491/"
+		"url": "https://www.ikea.com/ru/ru/p/fasinera-razdelochnaya-doska-mangovoe-derevo-60393491/",
+		"person": [0]
+	}, {
+		"img": "https://cdn1.ozone.ru/multimedia/wc1200/1036598489.jpg",
+		"name": 'Xiaomi Mi Band 4',
+		"price": 2000,
+		"url": "https://www.ozon.ru/context/detail/id/154739552/",
+		"person": [0,1]
 	}
 ]

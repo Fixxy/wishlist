@@ -24,6 +24,10 @@ function return_fancy_html(element) {
 							<br>
 							<span class="wish_el_price ${_className}">${element.price} ₽</span>
 						</div>
+						<div class="wish_el_person">
+							${(element.person.includes(0)) ? '<div class="female_ph"></div>' : ''}
+							${(element.person.includes(1)) ? '<div class="male_ph"></div>' : ''}
+						</div>
 					</div>
 				</a>`;
 	return html;
