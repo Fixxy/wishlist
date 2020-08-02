@@ -71,7 +71,7 @@ export const items = [
 	}, {
 		"img": "https://ae01.alicdn.com/kf/HTB13gyJdAfb_uJkSmFPq6ArCFXa9/100-ED060XH7-6-eink-carta-2.jpg",
 		"name": 'ЖК-дисплей для электронной книги',
-		"price": 5000,
+		"price": 3800,
 		"url": "https://aliexpress.ru/item/32850123876.html",
 		"person": [0]
 	}, {
