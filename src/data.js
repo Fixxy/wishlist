@@ -25,6 +25,12 @@ const items_old = [
 		"name": 'Властелин колец: Странствия в Средиземье',
 		"price": 5500,
 		"url": "https://hobbygames.ru/lord-of-the-rings-journeys-in-middle-earth"
+	}, {
+		"img": "https://www.ikea.com/ru/ru/images/products/fascinera-chopping-board__0896581_PE657551_S5.JPG?f=s",
+		"name": 'Разделочная доска из Ikea',
+		"price": 800,
+		"url": "https://www.ikea.com/ru/ru/p/fasinera-razdelochnaya-doska-mangovoe-derevo-60393491/",
+		"person": [0]
 	}
 ];
 
@@ -51,16 +57,28 @@ export const items = [
 		"url": "https://www.amazon.com/Spin-Master-Games-Escape-Room/dp/B01EARLQKQ/",
 		"person": [0,1]
 	}, {
-		"img": "https://www.ikea.com/ru/ru/images/products/fascinera-chopping-board__0896581_PE657551_S5.JPG?f=s",
-		"name": 'Разделочная доска из Ikea',
-		"price": 800,
-		"url": "https://www.ikea.com/ru/ru/p/fasinera-razdelochnaya-doska-mangovoe-derevo-60393491/",
-		"person": [0]
-	}, {
 		"img": "https://cdn1.ozone.ru/multimedia/wc1200/1036598489.jpg",
 		"name": 'Xiaomi Mi Band 4',
 		"price": 2000,
 		"url": "https://www.ozon.ru/context/detail/id/154739552/",
-		"person": [0,1]
+		"person": [0]
+	}, {
+		"img": "https://c.dns-shop.ru/thumb/st1/fit/320/250/1a0c677ecd193bf16d1ceb2cd1ea83b1/4e0d77a595e27515ec1e3d92cebb37a6a770d057f985141152087af47df0778a.jpg",
+		"name": 'Память для ноутбука',
+		"price": 5000,
+		"url": "https://www.dns-shop.ru/product/24056528a1783332/operativnaa-pamat-sodimm-amd-radeon-r7-performance-series-r7s416g2400s2s-16-gb/",
+		"person": [0]
+	}, {
+		"img": "https://ae01.alicdn.com/kf/HTB13gyJdAfb_uJkSmFPq6ArCFXa9/100-ED060XH7-6-eink-carta-2.jpg",
+		"name": 'ЖК-дисплей для электронной книги',
+		"price": 5000,
+		"url": "https://aliexpress.ru/item/32850123876.html",
+		"person": [0]
+	}, {
+		"img": "https://i-modelist.ru/file/i/600/394/89316923208d0ca42450cc085e1aac1d/2fa6b60e3080f75bac6be970de623697.jpg",
+		"name": 'Модель для сборки DeLorean',
+		"price": 3200,
+		"url": "https://i-modelist.ru/goods/model/avto-moto/Aoshima/1045/62022.html",
+		"person": [1]
 	}
 ]
