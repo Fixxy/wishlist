@@ -39,12 +39,6 @@ const items_old = [
 /* 0-female, 1-male */
 export const items = [
 	{
-		"img": "https://www.4glaza.ru/images/products/large/0/bresser-binoculars-topas-10x25-yellow-07.jpg",
-		"name": 'Бинокль для путешествий',
-		"price": 2500,
-		"url": "https://www.4glaza.ru/products/bresser-binoculars-topas-10x25-yellow/",
-		"person": [0,1]
-	}, {
 		"img": "https://nizagams.ru/wp-content/uploads/2019/12/%D0%90%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%BE-%D0%92%D0%A0%D0%95%D0%9C%D0%AF-%D0%9C%D0%B0%D0%B4%D0%B0%D0%BC.jpg",
 		"name": 'Настольная игра Агентство Время Мадам',
 		"price": 2300,
@@ -79,6 +73,12 @@ export const items = [
 		"name": 'Модель для сборки DeLorean',
 		"price": 3200,
 		"url": "https://i-modelist.ru/goods/model/avto-moto/Aoshima/1045/62022.html",
+		"person": [1]
+	}, {
+		"img": "https://thumb.tildacdn.com/tild6361-6634-4361-b433-396433333164/-/resize/466x/-/format/webp/fpr-001_light_web_2_.png",
+		"name": 'Flipper Zero',
+		"price": 8000,
+		"url": "https://flipperzero.one/",
 		"person": [1]
 	}
 ]
