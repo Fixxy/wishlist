@@ -31,14 +31,7 @@ const items_old = [
 		"price": 800,
 		"url": "https://www.ikea.com/ru/ru/p/fasinera-razdelochnaya-doska-mangovoe-derevo-60393491/",
 		"person": [0]
-	}
-];
-
-
-/* what we really want */
-/* 0-female, 1-male */
-export const items = [
-	{
+	}, {
 		"img": "https://nizagams.ru/wp-content/uploads/2019/12/%D0%90%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%BE-%D0%92%D0%A0%D0%95%D0%9C%D0%AF-%D0%9C%D0%B0%D0%B4%D0%B0%D0%BC.jpg",
 		"name": 'Настольная игра Агентство Время Мадам',
 		"price": 2300,
@@ -50,7 +43,14 @@ export const items = [
 		"price": 2500,
 		"url": "https://www.amazon.com/Spin-Master-Games-Escape-Room/dp/B01EARLQKQ/",
 		"person": [0,1]
-	}, {
+	}, 
+];
+
+
+/* what we really want */
+/* 0-female, 1-male */
+export const items = [
+	{
 		"img": "https://cdn1.ozone.ru/multimedia/wc1200/1036598489.jpg",
 		"name": 'Xiaomi Mi Band 4',
 		"price": 2000,
