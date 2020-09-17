@@ -81,5 +81,11 @@ export const items = [
 		"price": "от 500",
 		"url": "https://tairai.ru/certificates/",
 		"person": [0,1]
+	}, {
+		"img": "https://floatstudio.ru/assets/template_present/images/float_duo.jpg",
+		"name": 'Флоатинг Дуэт',
+		"price": 5400,
+		"url": "https://floatstudio.ru/present/#rec11408220",
+		"person": [0,1]
 	},
 ]
