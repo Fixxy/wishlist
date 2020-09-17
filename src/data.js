@@ -16,11 +16,6 @@ const items_old = [
 		"price": 2000,
 		"url": "https://www.mosigra.ru/Face/Show/klaustrofobia_probuzhdenie/"
 	}, {
-		"img": "https://tairai.ru/upload/resize_cache/uf/d58/335_240_1/d581a12ec4173989fbeb45a8234fc0a9.jpg",
-		"name": 'Тайский массаж',
-		"price": "от 500",
-		"url": "https://tairai.ru/certificates/"
-	}, {
 		"img": "https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/HobbyWorld/LOTR_stranstviya_v_sredizemye/LotR_journey-in-middle-earth-1024x1024-wm.jpg",
 		"name": 'Властелин колец: Странствия в Средиземье',
 		"price": 5500,
@@ -80,5 +75,11 @@ export const items = [
 		"price": 8000,
 		"url": "https://flipperzero.one/",
 		"person": [1]
-	}
+	}, {
+		"img": "https://tairai.ru/upload/resize_cache/uf/d58/335_240_1/d581a12ec4173989fbeb45a8234fc0a9.jpg",
+		"name": 'Тайский массаж',
+		"price": "от 500",
+		"url": "https://tairai.ru/certificates/",
+		"person": [0,1]
+	},
 ]
