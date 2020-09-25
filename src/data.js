@@ -38,6 +38,12 @@ const items_old = [
 		"price": 2500,
 		"url": "https://www.amazon.com/Spin-Master-Games-Escape-Room/dp/B01EARLQKQ/",
 		"person": [0,1]
+	}, {
+		"img": "https://cdn1.ozone.ru/multimedia/wc1200/1036598489.jpg",
+		"name": 'Xiaomi Mi Band 4',
+		"price": 2000,
+		"url": "https://www.ozon.ru/context/detail/id/154739552/",
+		"person": [0]
 	}, 
 ];
 
@@ -46,12 +52,6 @@ const items_old = [
 /* 0-female, 1-male */
 export const items = [
 	{
-		"img": "https://cdn1.ozone.ru/multimedia/wc1200/1036598489.jpg",
-		"name": 'Xiaomi Mi Band 4',
-		"price": 2000,
-		"url": "https://www.ozon.ru/context/detail/id/154739552/",
-		"person": [0]
-	}, {
 		"img": "https://c.dns-shop.ru/thumb/st1/fit/320/250/1a0c677ecd193bf16d1ceb2cd1ea83b1/4e0d77a595e27515ec1e3d92cebb37a6a770d057f985141152087af47df0778a.jpg",
 		"name": 'Память для ноутбука',
 		"price": 5000,
@@ -87,5 +87,11 @@ export const items = [
 		"price": 5400,
 		"url": "https://floatstudio.ru/present/#rec11408220",
 		"person": [0,1]
-	},
+	}, {
+		"img": "https://static.vl.ru/catalog/1461663226331_big_vlru.jpg",
+		"name": 'Курс дайвинга "Идеальная плавучесть"',
+		"price": 6600,
+		"url": "http://www.nautilus-dive.ru/price.html",
+		"person": [0]
+	}, 
 ]
