@@ -92,6 +92,6 @@ export const items = [
 		"name": 'Курс дайвинга "Идеальная плавучесть"',
 		"price": 6600,
 		"url": "http://www.nautilus-dive.ru/price.html",
-		"person": [0]
+		"person": [0,1]
 	}, 
 ]
