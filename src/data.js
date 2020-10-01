@@ -62,7 +62,7 @@ export const items = [
 		"name": 'ЖК-дисплей для электронной книги',
 		"price": 3800,
 		"url": "https://aliexpress.ru/item/32850123876.html",
-		"person": [0,1]
+		"person": [1]
 	}, {
 		"img": "https://i-modelist.ru/file/i/600/394/89316923208d0ca42450cc085e1aac1d/2fa6b60e3080f75bac6be970de623697.jpg",
 		"name": 'Модель для сборки DeLorean',
