@@ -1,6 +1,12 @@
 /* what we wanted for whatever reason */
 const items_old = [
 	{
+		"img": "https://c.dns-shop.ru/thumb/st1/fit/320/250/1a0c677ecd193bf16d1ceb2cd1ea83b1/4e0d77a595e27515ec1e3d92cebb37a6a770d057f985141152087af47df0778a.jpg",
+		"name": 'Память для ноутбука',
+		"price": 5000,
+		"url": "https://www.dns-shop.ru/product/24056528a1783332/operativnaa-pamat-sodimm-amd-radeon-r7-performance-series-r7s416g2400s2s-16-gb/",
+		"person": [0]
+	}, {
 		"img": "https://static-eu.insales.ru/images/products/1/1787/230344443/large_logo_new2019.jpg",
 		"name": 'Подарочный сертификат в Zero Waste Shop',
 		"price": "от 100",
@@ -52,12 +58,6 @@ const items_old = [
 /* 0-female, 1-male */
 export const items = [
 	{
-		"img": "https://c.dns-shop.ru/thumb/st1/fit/320/250/1a0c677ecd193bf16d1ceb2cd1ea83b1/4e0d77a595e27515ec1e3d92cebb37a6a770d057f985141152087af47df0778a.jpg",
-		"name": 'Память для ноутбука',
-		"price": 5000,
-		"url": "https://www.dns-shop.ru/product/24056528a1783332/operativnaa-pamat-sodimm-amd-radeon-r7-performance-series-r7s416g2400s2s-16-gb/",
-		"person": [0]
-	}, {
 		"img": "https://ae01.alicdn.com/kf/HTB13gyJdAfb_uJkSmFPq6ArCFXa9/100-ED060XH7-6-eink-carta-2.jpg",
 		"name": 'ЖК-дисплей для электронной книги',
 		"price": 3800,
@@ -92,6 +92,6 @@ export const items = [
 		"name": 'Курс дайвинга "Идеальная плавучесть"',
 		"price": 6600,
 		"url": "http://www.nautilus-dive.ru/price.html",
-		"person": [0,1]
-	}, 
+		"person": [1]
+	}
 ]
