@@ -89,9 +89,9 @@ export const items = [
 		"person": [0,1]
 	}, {
 		"img": "https://static.vl.ru/catalog/1461663226331_big_vlru.jpg",
-		"name": 'Курс дайвинга "Идеальная плавучесть"',
-		"price": 6600,
+		"name": 'Дайвинг',
+		"price": "от 1100",
 		"url": "http://www.nautilus-dive.ru/price.html",
-		"person": [1]
+		"person": [0,1]
 	}
 ]
