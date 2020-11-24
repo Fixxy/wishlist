@@ -1,5 +1,5 @@
 /* what we wanted for whatever reason */
-const items_old = [
+const itemsHidden = [
 	{
 		"img": "https://c.dns-shop.ru/thumb/st1/fit/320/250/1a0c677ecd193bf16d1ceb2cd1ea83b1/4e0d77a595e27515ec1e3d92cebb37a6a770d057f985141152087af47df0778a.jpg",
 		"name": 'Память для ноутбука',
@@ -50,20 +50,26 @@ const items_old = [
 		"price": 2000,
 		"url": "https://www.ozon.ru/context/detail/id/154739552/",
 		"person": [0]
-	}, 
-];
-
-
-/* what we really want */
-/* 0-female, 1-male */
-export const items = [
-	{
+	}, {
 		"img": "https://ae01.alicdn.com/kf/HTB13gyJdAfb_uJkSmFPq6ArCFXa9/100-ED060XH7-6-eink-carta-2.jpg",
 		"name": 'ЖК-дисплей для электронной книги',
 		"price": 3800,
 		"url": "https://aliexpress.ru/item/32850123876.html",
 		"person": [1]
 	}, {
+		"img": "https://floatstudio.ru/assets/template_present/images/float_duo.jpg",
+		"name": 'Флоатинг Дуэт',
+		"price": 5400,
+		"url": "https://floatstudio.ru/present/#rec11408220",
+		"person": [0,1]
+	},
+];
+
+
+/* what we really want right now */
+/* 0-female, 1-male */
+export const items = [
+	{
 		"img": "https://i-modelist.ru/file/i/600/394/89316923208d0ca42450cc085e1aac1d/2fa6b60e3080f75bac6be970de623697.jpg",
 		"name": 'Модель для сборки DeLorean',
 		"price": 3200,
@@ -80,12 +86,6 @@ export const items = [
 		"name": 'Тайский массаж',
 		"price": "от 500",
 		"url": "https://tairai.ru/certificates/",
-		"person": [0,1]
-	}, {
-		"img": "https://floatstudio.ru/assets/template_present/images/float_duo.jpg",
-		"name": 'Флоатинг Дуэт',
-		"price": 5400,
-		"url": "https://floatstudio.ru/present/#rec11408220",
 		"person": [0,1]
 	}, {
 		"img": "https://static.vl.ru/catalog/1461663226331_big_vlru.jpg",
