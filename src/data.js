@@ -99,5 +99,11 @@ export const items = [
 		"price": 8000,
 		"url": "http://www.nautilus-dive.ru/price.html",
 		"person": [0,1]
+	}, {
+		"img": "https://cdn1.ozone.ru/multimedia/wc1200/1037403066.jpg",
+		"name": 'Подводный компьютер Suunto Zoop Novo',
+		"price": 15600,
+		"url": "https://www.ozon.ru/context/detail/id/155424445/",
+		"person": [0,1]
 	}
 ]
