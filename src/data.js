@@ -94,7 +94,7 @@ export const items = [
 		"url": "http://www.nautilus-dive.ru/price.html",
 		"person": [0,1]
 	}, {
-		"img": "https://lh3.googleusercontent.com/pw/ACtC-3d4eX7S40YjK1Dt-sxwID14b2M1mX7XFT0PX-rqt9sAH-vY4iSyEkhL2kwFhSY8qXb0n8QfWHzFOSB2JS3xd1ub7RdFGwMANmysUts9vpjwG1-Cm7Ys6ZqUSQe-Nv_Iqaex2a1cH-mj6LscGkYWrVFLTQ=w456-h937-no?authuser=0",
+		"img": "./lib/img/dive1.jpg",
 		"name": 'Мастер-класс "Идеальная плавучесть +"',
 		"price": 8000,
 		"url": "http://www.nautilus-dive.ru/price.html",
