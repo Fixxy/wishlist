@@ -62,7 +62,13 @@ const itemsHidden = [
 		"price": 5400,
 		"url": "https://floatstudio.ru/present/#rec11408220",
 		"person": [0,1]
-	},
+	}, {
+		"img": "https://cdn1.ozone.ru/multimedia/wc1200/1037403066.jpg",
+		"name": 'Подводный компьютер Suunto Zoop Novo',
+		"price": 15600,
+		"url": "https://www.ozon.ru/context/detail/id/155424445/",
+		"person": [0,1]
+	}, 
 ];
 
 
@@ -70,7 +76,7 @@ const itemsHidden = [
 /* 0-female, 1-male */
 export const items = [
 	{
-		"img": "https://i-modelist.ru/file/i/600/394/89316923208d0ca42450cc085e1aac1d/2fa6b60e3080f75bac6be970de623697.jpg",
+		"img": "https://i-modelist.ru/file/iperc/75/e712ac3dc8e550ff9fc68c8aa78f276d/e712.jpeg",
 		"name": 'Модель для сборки DeLorean',
 		"price": 3200,
 		"url": "https://i-modelist.ru/goods/model/avto-moto/Aoshima/1045/62022.html",
@@ -98,12 +104,6 @@ export const items = [
 		"name": 'Мастер-класс "Идеальная плавучесть +"',
 		"price": 8000,
 		"url": "http://www.nautilus-dive.ru/price.html",
-		"person": [0,1]
-	}, {
-		"img": "https://cdn1.ozone.ru/multimedia/wc1200/1037403066.jpg",
-		"name": 'Подводный компьютер Suunto Zoop Novo',
-		"price": 15600,
-		"url": "https://www.ozon.ru/context/detail/id/155424445/",
 		"person": [0,1]
 	}
 ]
