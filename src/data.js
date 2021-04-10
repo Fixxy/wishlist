@@ -105,5 +105,18 @@ export const items = [
 		"price": 8000,
 		"url": "http://www.nautilus-dive.ru/price.html",
 		"person": [0,1]
+	},{
+		"img": "https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/HobbyWorld/LOTR_stranstviya_v_sredizemye/Temnye_Tropy/Photos/LOTR_Shadowed_Paths00-1024x1024-wm.jpg",
+		"name": 'Властелин колец: Странствия в Средиземье. Тёмные тропы',
+		"price": 5000,
+		"url": "https://tesera.ru/game/the-lord-of-the-rings-journeys-in-middle-earth-shadowed-paths",
+		"person": [0,1]
+	},{
+		"img": "https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/Lavka_Games/Krylya/Pticy_Okeanii/Krilya_Ptici_Okeanii-1024x1024-wm.jpg",
+		"name": 'Крылья: Птицы Океании',
+		"price": 3000,
+		"url": "https://hobbygames.ru/krilja-ptici-okeanii",
+		"person": [0,1]
 	}
+
 ]
