@@ -68,6 +68,12 @@ const itemsHidden = [
 		"price": 15600,
 		"url": "https://www.ozon.ru/context/detail/id/155424445/",
 		"person": [0,1]
+	}, {
+		"img": "https://i-modelist.ru/file/iperc/75/e712ac3dc8e550ff9fc68c8aa78f276d/e712.jpeg",
+		"name": 'Модель для сборки DeLorean',
+		"price": 3200,
+		"url": "https://i-modelist.ru/goods/model/avto-moto/Aoshima/1045/62022.html",
+		"person": [1]
 	}, 
 ];
 
@@ -76,12 +82,6 @@ const itemsHidden = [
 /* 0-female, 1-male */
 export const items = [
 	{
-		"img": "https://i-modelist.ru/file/iperc/75/e712ac3dc8e550ff9fc68c8aa78f276d/e712.jpeg",
-		"name": 'Модель для сборки DeLorean',
-		"price": 3200,
-		"url": "https://i-modelist.ru/goods/model/avto-moto/Aoshima/1045/62022.html",
-		"person": [1]
-	}, {
 		"img": "https://thumb.tildacdn.com/tild6361-6634-4361-b433-396433333164/-/resize/466x/-/format/webp/fpr-001_light_web_2_.png",
 		"name": 'Flipper Zero',
 		"price": 8000,
