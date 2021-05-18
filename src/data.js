@@ -117,6 +117,12 @@ export const items = [
 		"price": 3000,
 		"url": "https://hobbygames.ru/krilja-ptici-okeanii",
 		"person": [0,1]
+	},{
+		"img": "https://img-gorod.ru/28/476/2847675_detail.jpg",
+		"name": 'Книга "Solutions and Other Problems"',
+		"price": 1300,
+		"url": "https://www.chitai-gorod.ru/catalog/book/2851314/",
+		"person": [1]
 	}
 
 ]
