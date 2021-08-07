@@ -123,6 +123,12 @@ export const items = [
 		"price": 1300,
 		"url": "https://www.chitai-gorod.ru/catalog/book/2851314/",
 		"person": [1]
+	},{
+		"img": "https://www.velostrana.ru/assets/images/giftcard/giftcard-1.jpg",
+		"name": 'Сертификат в Велострану"',
+		"price": от 1000,
+		"url": "https://www.velostrana.ru/present/",
+		"person": [0,1]
 	}
 
 ]
