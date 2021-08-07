@@ -126,9 +126,16 @@ export const items = [
 	},{
 		"img": "https://www.velostrana.ru/assets/images/giftcard/giftcard-1.jpg",
 		"name": 'Сертификат в Велострану"',
-		"price": от 1000,
+		"price": "от 1000",
 		"url": "https://www.velostrana.ru/present/",
 		"person": [0,1]
+	},{
+		"img": "https://cdn.shopify.com/s/files/1/0252/6822/4088/products/191220_gift_cards_720x.png?v=1609356832",
+		"name": 'Сертификат Kurzgesagt"',
+		"price": "25€",
+		"url": "https://shop-eu.kurzgesagt.org/collections/accessories/products/gift-card?variant=32006699909208",
+		"person": [0,1]
 	}
+
 
 ]
