@@ -7,11 +7,6 @@ const itemsHidden = [
 		"url": "https://www.dns-shop.ru/product/24056528a1783332/operativnaa-pamat-sodimm-amd-radeon-r7-performance-series-r7s416g2400s2s-16-gb/",
 		"person": [0]
 	}, {
-		"img": "https://static-eu.insales.ru/images/products/1/1787/230344443/large_logo_new2019.jpg",
-		"name": 'Подарочный сертификат в Zero Waste Shop',
-		"price": "от 100",
-		"url": "https://zws.moscow/collection/podarochnye-sertifikaty"
-	}, {
 		"img": "https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/HobbyWorld/Ostrov_Duhov/Photos/Ostrov_Duhov_01-1024x1024-wm.jpg",
 		"name": 'Настольная игра "Остров Духов"',
 		"price": 4500,
@@ -21,11 +16,6 @@ const itemsHidden = [
 		"name": 'Игра Клаустрафобия "Пробуждение"',
 		"price": 2000,
 		"url": "https://www.mosigra.ru/Face/Show/klaustrofobia_probuzhdenie/"
-	}, {
-		"img": "https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/HobbyWorld/LOTR_stranstviya_v_sredizemye/LotR_journey-in-middle-earth-1024x1024-wm.jpg",
-		"name": 'Властелин колец: Странствия в Средиземье',
-		"price": 5500,
-		"url": "https://hobbygames.ru/lord-of-the-rings-journeys-in-middle-earth"
 	}, {
 		"img": "https://www.ikea.com/ru/ru/images/products/fascinera-chopping-board__0896581_PE657551_S5.JPG?f=s",
 		"name": 'Разделочная доска из Ikea',
@@ -45,28 +35,10 @@ const itemsHidden = [
 		"url": "https://www.amazon.com/Spin-Master-Games-Escape-Room/dp/B01EARLQKQ/",
 		"person": [0,1]
 	}, {
-		"img": "https://cdn1.ozone.ru/multimedia/wc1200/1036598489.jpg",
-		"name": 'Xiaomi Mi Band 4',
-		"price": 2000,
-		"url": "https://www.ozon.ru/context/detail/id/154739552/",
-		"person": [0]
-	}, {
-		"img": "https://ae01.alicdn.com/kf/HTB13gyJdAfb_uJkSmFPq6ArCFXa9/100-ED060XH7-6-eink-carta-2.jpg",
-		"name": 'ЖК-дисплей для электронной книги',
-		"price": 3800,
-		"url": "https://aliexpress.ru/item/32850123876.html",
-		"person": [1]
-	}, {
 		"img": "https://floatstudio.ru/assets/template_present/images/float_duo.jpg",
 		"name": 'Флоатинг Дуэт',
 		"price": 5400,
 		"url": "https://floatstudio.ru/present/#rec11408220",
-		"person": [0,1]
-	}, {
-		"img": "https://cdn1.ozone.ru/multimedia/wc1200/1037403066.jpg",
-		"name": 'Подводный компьютер Suunto Zoop Novo',
-		"price": 15600,
-		"url": "https://www.ozon.ru/context/detail/id/155424445/",
 		"person": [0,1]
 	}, {
 		"img": "https://i-modelist.ru/file/iperc/75/e712ac3dc8e550ff9fc68c8aa78f276d/e712.jpeg",
@@ -88,7 +60,7 @@ export const items = [
 		"url": "https://flipperzero.one/",
 		"person": [1]
 	}, {
-		"img": "https://tairai.ru/upload/resize_cache/uf/d58/335_240_1/d581a12ec4173989fbeb45a8234fc0a9.jpg",
+		"img": "https://p0.zoon.ru/preview/zZip6ZolGWaKtpTSUPAFMQ/2246x1500x75/1/0/1/original_5e5aacdf2358360eb163ad47_5eff5a11f40a2.jpg",
 		"name": 'Тайский массаж',
 		"price": "от 500",
 		"url": "https://tairai.ru/certificates/",
@@ -106,12 +78,6 @@ export const items = [
 		"url": "http://www.nautilus-dive.ru/price.html",
 		"person": [0,1]
 	},{
-		"img": "https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/HobbyWorld/LOTR_stranstviya_v_sredizemye/Temnye_Tropy/Photos/LOTR_Shadowed_Paths00-1024x1024-wm.jpg",
-		"name": 'Властелин колец: Странствия в Средиземье. Тёмные тропы',
-		"price": 5000,
-		"url": "https://tesera.ru/game/the-lord-of-the-rings-journeys-in-middle-earth-shadowed-paths",
-		"person": [0,1]
-	},{
 		"img": "https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/Lavka_Games/Krylya/Pticy_Okeanii/Krilya_Ptici_Okeanii-1024x1024-wm.jpg",
 		"name": 'Крылья: Птицы Океании',
 		"price": 3000,
@@ -123,12 +89,6 @@ export const items = [
 		"price": 1300,
 		"url": "https://www.chitai-gorod.ru/catalog/book/2851314/",
 		"person": [1]
-	},{
-		"img": "https://www.velostrana.ru/assets/images/giftcard/giftcard-1.jpg",
-		"name": 'Сертификат в Велострану',
-		"price": "от 1000",
-		"url": "https://www.velostrana.ru/present/",
-		"person": [0,1]
 	},{
 		"img": "https://cdn.shopify.com/s/files/1/0252/6822/4088/products/191220_gift_cards_720x.png?v=1609356832",
 		"name": 'Сертификат Kurzgesagt',
