@@ -52,20 +52,14 @@ export const items = [
 		"name": 'Тайский массаж',
 		"price": "от 500",
 		"url": "https://tairai.ru/certificates/",
-		"person": [0,1]
+		"person": [0]
 	}, {
 		"img": "https://static.vl.ru/catalog/1461663226331_big_vlru.jpg",
-		"name": 'Дайвинг в бассейне',
-		"price": 2200,
+		"name": 'Оборудование для дайвинга',
+		"price": '',
 		"url": "http://www.nautilus-dive.ru/price.html",
 		"person": [0,1]
 	}, {
-		"img": "./lib/img/dive1.jpg",
-		"name": 'Мастер-класс "Идеальная плавучесть +"',
-		"price": 8000,
-		"url": "http://www.nautilus-dive.ru/price.html",
-		"person": [0,1]
-	},{
 		"img": "https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/Lavka_Games/Krylya/Pticy_Okeanii/Krilya_Ptici_Okeanii-1024x1024-wm.jpg",
 		"name": 'Крылья: Птицы Океании',
 		"price": 3000,
@@ -82,7 +76,7 @@ export const items = [
 		"name": 'Сертификат Kurzgesagt',
 		"price": "2000",
 		"url": "https://shop-eu.kurzgesagt.org/collections/accessories/products/gift-card?variant=32006699909208",
-		"person": [0,1]
+		"person": [0]
 	}
 
 
