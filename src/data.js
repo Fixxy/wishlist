@@ -68,16 +68,26 @@ export const items = [
 	},{
 		"img": "https://img-gorod.ru/28/476/2847675_detail.jpg",
 		"name": 'Книга "Solutions and Other Problems"',
-		"price": 1300,
+		"price": 1100,
 		"url": "https://www.chitai-gorod.ru/catalog/book/2851314/",
 		"person": [1]
 	},{
 		"img": "https://cdn.shopify.com/s/files/1/0252/6822/4088/products/191220_gift_cards_720x.png?v=1609356832",
 		"name": 'Сертификат Kurzgesagt',
-		"price": "2000",
+		"price": 2000,
 		"url": "https://shop-eu.kurzgesagt.org/collections/accessories/products/gift-card?variant=32006699909208",
 		"person": [0]
+	},{
+		"img": "https://img-gorod.ru/27/618/2761843_detail.jpg",
+		"name": 'Графический роман "Секретные войны"',
+		"price": 1300,
+		"url": "https://www.chitai-gorod.ru/catalog/book/1217259/",
+		"person": [1]
+	},{
+		"img": "https://img-gorod.ru/25/213/2521394_detail.jpg",
+		"name": 'World of Warcraft: Хроники',
+		"price": 1300,
+		"url": "https://www.chitai-gorod.ru/catalog/book/902899/",
+		"person": [1]
 	}
-
-
 ]
