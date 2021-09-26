@@ -1,7 +1,16 @@
+/* globals */
 :root {
 	--photo-size: 40px;
 }
+body {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	line-height: 1.5;
+}
+*, ::after, ::before {
+	box-sizing: border-box;
+}
 
+/* page layout */
 #wrapper {
 	top: 0;
 	right: 0;
@@ -21,8 +30,8 @@
 	flex-wrap: wrap;
 }
 .wish_el {
-	flex: 33.3%;
-	max-width: 33.3%;
+	flex: 25%;
+	max-width: 25%;
 	height: 200px;
 	float: left;
 	list-style: none;
@@ -41,7 +50,27 @@
 .wish_el:focus .wish_el_photo {
 	transform: scale(1.2);
 }
+/* responsive layout */
+@media (max-width: 1200px) {
+	.wish_el {
+		flex: 33.3%;
+		max-width: 33.3%;
+	}
+}
+@media (max-width: 800px) {
+	.wish_el {
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+@media (max-width: 600px) {
+	.wish_el {
+		flex: 100%;
+		max-width: 100%;
+	}
+}
 
+/* content */
 .wish_el_photo {
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -51,6 +80,7 @@
 }
 .wish_el_content {
 	width: 100%;
+	top: 0;
 	bottom: 0;
 	position: absolute;
 	font-size: 1.2em;
@@ -92,19 +122,3 @@
 .low_price { color: #ad3; }
 .medium_price { color: #ffc107; }
 .high_price { color: #ff5722; }
-
-
-
-/* responsive layout */
-@media (max-width: 800px) {
-	.wish_el {
-		flex: 50%;
-		max-width: 50%;
-	}
-}
-@media (max-width: 600px) {
-	.wish_el {
-		flex: 100%;
-		max-width: 100%;
-	}
-}
