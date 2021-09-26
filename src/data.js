@@ -46,7 +46,7 @@ const itemsHidden = [
 
 /* what we really want right now */
 /* 0-female, 1-male */
-export const items = [
+export const ITEMS = [
 	{
 		"img": "https://p0.zoon.ru/preview/zZip6ZolGWaKtpTSUPAFMQ/2246x1500x75/1/0/1/original_5e5aacdf2358360eb163ad47_5eff5a11f40a2.jpg",
 		"name": 'Тайский массаж',

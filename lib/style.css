@@ -1,4 +1,7 @@
-/* fancy intro */
+:root {
+	--photo-size: 40px;
+}
+
 #wrapper {
 	top: 0;
 	right: 0;
@@ -46,7 +49,7 @@
 	height: 100%;
 	transition: all .5s;
 }
-.wish_el_text {
+.wish_el_content {
 	width: 100%;
 	bottom: 0;
 	position: absolute;
@@ -62,27 +65,22 @@
 
 .wish_el_person {
 	display: flex;
-	background-color: #0000004d;
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	padding: .25em .5em;
 }
-.female_ph {
-	background-image: url('./img/female.png');
-	background-size: 20px;
+.photo {
+	border-radius: 50%;
+	border: 2px solid white;
+	background-size: var(--photo-size);
 	background-repeat: no-repeat;
-	width: 20px;
-	height: 20px;
+	background-position: center;
+	width: var(--photo-size);
+	height: var(--photo-size);
 }
-.male_ph {
-	background-image: url('./img/male.png');
-	background-size: 20px;
-	background-repeat: no-repeat;
-	width: 20px;
-	height: 20px;
-}
-
+.photo.marina { background-image: url('./img/marina.jpg'); }
+.photo.me { background-image: url('./img/me.jpg'); }
 
 .wish_el_name {
 	position: relative;
