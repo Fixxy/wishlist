@@ -89,5 +89,11 @@ export const ITEMS = [
 		"price": 1300,
 		"url": "https://www.chitai-gorod.ru/catalog/book/902899/",
 		"person": [1]
+	},{
+		"img": "https://c.dns-shop.ru/thumb/st4/fit/0/0/58600eca7647721ac09103195f0aa348/1ac74ecfe892033652377eb4d63f4d7c5ae4ee474fdecdb1d22118b4abf38a55.jpg",
+		"name": 'Игра Pokemon Shield (Switch)',
+		"price": 1300,
+		"url": "https://www.dns-shop.ru/product/a707095804393332/igra-pokemon-shield-switch/",
+		"person": [1]
 	}
 ]
