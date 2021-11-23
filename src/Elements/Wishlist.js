@@ -28,7 +28,7 @@ class Wishlist {
 			contentBlock.className = 'wish_el_content';
 
 		/** title & price */
-		let price = this.data.price;
+		let price = parseInt(this.data.price);
 		let priceClass = 'low_price';
 		if (typeof(price) === 'number') {
 			if (price >= 1000) {priceClass = 'medium_price';}
