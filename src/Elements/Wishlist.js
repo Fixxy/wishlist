@@ -1,11 +1,10 @@
-class Entry {
-	constructor(block, props) {
+class Wishlist {
+	constructor(block) {
 		this.block = block;
-		this.data = props.data;
-		this.createElement();
 	}
 	/** create dom element */
-	createElement() {
+	addEntry(props) {
+		this.data = props.data;
 		this.element = document.createElement('li');
 		this.element.setAttribute('class', 'wish_el')
 		this.element.appendChild(this.generateContent());
@@ -48,8 +47,8 @@ class Entry {
 		let itemOwner = document.createElement('div');
 			itemOwner.className = 'wish_el_person';
 			itemOwner.innerHTML = `
-				${(this.data.person.includes(0)) ? '<div class="photo marina"></div>' : ''}
-				${(this.data.person.includes(1)) ? '<div class="photo me"></div>' : ''}
+				${(this.data.person.includes('marina')) ? '<div class="photo marina"></div>' : ''}
+				${(this.data.person.includes('alex')) ? '<div class="photo alex"></div>' : ''}
 			`;
 		contentBlock.appendChild(itemOwner);
 
@@ -60,4 +59,4 @@ class Entry {
 	}
 }
 
-export default Entry;
+export default Wishlist;

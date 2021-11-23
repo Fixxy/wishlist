@@ -110,7 +110,7 @@ body {
 	height: var(--photo-size);
 }
 .photo.marina { background-image: url('./img/marina.jpg'); }
-.photo.me { background-image: url('./img/me.jpg'); }
+.photo.alex { background-image: url('./img/alex.jpg'); }
 
 .wish_el_name {
 	position: relative;
