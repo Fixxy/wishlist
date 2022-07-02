@@ -31,15 +31,15 @@ class Wishlist {
 		let price = parseInt(this.data.price);
 		let priceClass = 'low_price';
 		if (typeof(price) === 'number') {
-			if (price >= 1000) {priceClass = 'medium_price';}
-			if (price >= 3000) {priceClass = 'high_price';}
+			if (price >= 25) {priceClass = 'medium_price';}
+			if (price >= 50) {priceClass = 'high_price';}
 		}
 		let itemTexts = document.createElement('div');
 			itemTexts.className = 'wish_el_name';
 			itemTexts.innerHTML = `
 				<span>${this.data.name}</span>
 				<br>
-				${(this.data.price) ? `<span class="wish_el_price ${priceClass}">${this.data.price} ₽</span>` : ''}
+				${(this.data.price) ? `<span class="wish_el_price ${priceClass}">${this.data.price} €</span>` : ''}
 			`;
 		contentBlock.appendChild(itemTexts);
 
